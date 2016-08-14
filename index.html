@@ -1,0 +1,72 @@
+---
+title: Kristian Walker
+---
+<!-- header -->
+{% include header-meta_project.html %} 
+<!-- project specific meta data-->
+
+<!-- insert project specifi head properties -->
+<!--
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</head>
+<div id="page-wrapper">
+<body>
+-->
+
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.2.min.js"></script>
+<script>
+    window.twttr = (function(d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = {
+            _e: [],
+            ready: function(f) {
+                t._e.push(f)
+            }
+        });
+    }(document, "script", "twitter-wjs"));
+</script>
+<script type="text/javascript" src="main.js"></script>
+
+</head>
+<div id="page-wrapper">
+<body >
+
+{% include header.html %}
+
+
+
+	<div id ="con">
+
+	  <div class="left_column">
+	    <img src="" alt="dfsd" id="wikiImg"/>
+	  </div>  
+	  <div class='right_column'>
+	    <div id="response">
+	      <div id="quote"></div>
+	      <div id="author"></div>
+	      
+	    </div>
+
+	   <button id='quoteGETJSON' class="button">Get Quote</button>
+	   <div id="tweet">
+	    <div id="tweet_inner">
+	    </div>
+	  </div>
+
+	  </div><!-- end of right column -->
+
+	</div>
+
+
+
+
+{% include footer.html %}

@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+#con{
+position:relative;
+width:800px;
+margin-left:auto;
+margin-right:auto;
+height:200px;
+background-color:white;
+border-radius:50px;
+text-align: center;
+margin-top: 160px;
+padding:25px;
+opacity:0;
+
+}
+
+#wikiImg{
+  max-height:200px;
+  max-width:250px;
+}
+body{
+background:#E7EBF0;
+font-family: 'Open Sans', sans-serif;
+}
+
+.left_column{
+  position:absolute;
+  left:0;
+   transform: translateY(-50%);
+   top:50%;
+  width:35%;
+  
+
+}
+.right_column{
+  position:absolute;
+  transform: translateY(-50%);
+  right:0px;
+  top:50%;
+  width:65%;
+  
+}
+
+.button {
+     background-color: #4CAF50; /* Green */
+    border: none;
+    outline:none;
+    color: white;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.50);
+    margin:10px;    
+-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.button:hover {
+ background-color: #449d48;/* Green */
+    color: white;
+    /* giving it a glow */
+    text-shadow: -1px 1px 50px #ffc, 1px -1px 50px #fff;
+
+}
+
+#tweet{
+  position:relative;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:8px;
+  overflow:hidden;
+  border-radius:50%;
+  width:28px;
+  
+  
+
+}
+#tweet_inner{
+position:relative;
+left:-4px;
+height:28px;
+}
+
+#quote{
+  font-size:120%;
+  font-weight:bold;
+  margin-bottom:5px;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.wikiimage{
+  max-height:200px;
+  
+}
